@@ -1,5 +1,6 @@
 close all; clear all; clc;
-
+warning('off')
+diary consoleOutput.txt
 
 %% Na D Lines Import Data
 
@@ -22,6 +23,18 @@ opts.StartPoint = [0.772 4.531 2.52336275795925 0.668 35.899 1.91621639204114];
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
+    coeffs = coeffvalues(fitresult);
+    ci = confint(fitresult);
+    pos1 = coeffs(1,2);
+    uncert1 = ci(2,2) - ci(1,2);
+    pos2 = coeffs(1,5);
+    uncert2 = ci(2,5) - ci(1,5);
+    
+    disp('NaD Lines, Time')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    
+    
 
 % Plot fit with data.
 figure( 'Name', 'Na D Lines for Calibration' );
@@ -58,6 +71,16 @@ opts.StartPoint = [0.772 0.859222592 0.478510326517328 0.668 6.807599168 0.36337
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
+    coeffs = coeffvalues(fitresult);
+    ci = confint(fitresult);
+    pos1 = coeffs(1,2);
+    uncert1 = ci(2,2) - ci(1,2);
+    pos2 = coeffs(1,5);
+    uncert2 = ci(2,5) - ci(1,5);
+    
+    disp('NaD Lines, Angstroms')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
 
 % Plot fit with data.
 figure( 'Name', 'Na D Lines for Calibration in Angstroms' );
@@ -65,7 +88,7 @@ hold on;
 plot( xData, yData );
 yFitted = feval(fitresult,xData);
 
-[NaDPks, NaDLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .3, 'MinPeakDistance', 1)
+[NaDPks, NaDLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .3, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .3, 'MinPeakDistance', 1)
 legend( 'Na D Lines Raw Data', 'Gaussian Fit', 'Peaks', 'Location', 'NorthEast' );
 % Label axes
@@ -74,7 +97,7 @@ ylabel 'Intensity [Arbitrary Units]'
 title 'Na D Lines for Calibration in Angstroms'
 grid on
 
-text(NaDLocs-.6, NaDPks+.05, strcat("Pos = ", num2str(NaDLocs)))
+text(NaDLocs-.6, NaDPks+.05, strcat("Pos = ", num2str(NaDLocs)));
 saveas(gcf,'Fig2.png')
 
 
@@ -98,6 +121,16 @@ opts.StartPoint = [0.45 1.875839744 0.216394053182048 0.274 3.62660201344 0.2766
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
+    coeffs = coeffvalues(fitresult);
+    ci = confint(fitresult);
+    pos1 = coeffs(1,2);
+    uncert1 = ci(2,2) - ci(1,2);
+    pos2 = coeffs(1,5);
+    uncert2 = ci(2,5) - ci(1,5);
+    
+    disp('HD Alpha')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
 
 % Plot fit with data.
 figure( 'Name', 'HD Alpha' );
@@ -106,7 +139,7 @@ plot( xData, yData );
 
 yFitted = feval(fitresult,xData);
 
-[HDAPks, HDALocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
+[HDAPks, HDALocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
 
 legend( 'HD Alpha Raw Data', 'Gaussian Fit', 'Peaks', 'Location', 'NorthEast' );
@@ -116,7 +149,7 @@ ylabel 'Intensity [Arbitrary Units]'
 title 'HD Alpha'
 grid on
 
-text(HDALocs+.1, HDAPks, strcat("Pos = ", num2str(HDALocs)))
+text(HDALocs+.1, HDAPks, strcat("Pos = ", num2str(HDALocs)));
 saveas(gcf,'Fig3.png')
 
 
@@ -140,6 +173,16 @@ opts.StartPoint = [0.45 1.875839744 0.216394053182048 0.274 3.62660201344 0.2766
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
+    coeffs = coeffvalues(fitresult);
+    ci = confint(fitresult);
+    pos1 = coeffs(1,2);
+    uncert1 = ci(2,2) - ci(1,2);
+    pos2 = coeffs(1,5);
+    uncert2 = ci(2,5) - ci(1,5);
+    
+    disp('HD Beta')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
 
 % Plot fit with data.
 figure( 'Name', 'HD Beta' );
@@ -148,7 +191,7 @@ plot( xData, yData );
 
 yFitted = feval(fitresult,xData);
 
-[HDBPks, HDBLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
+[HDBPks, HDBLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
 
 legend( 'HD Beta Raw Data', 'Gaussian Fit', 'Peaks', 'Location', 'NorthEast' );
@@ -158,7 +201,7 @@ ylabel 'Intensity [Arbitrary Units]'
 title 'HD Beta'
 grid on
 
-text(HDBLocs+.1, HDBPks, strcat("Pos = ", num2str(HDBLocs)))
+text(HDBLocs+.1, HDBPks, strcat("Pos = ", num2str(HDBLocs)));
 saveas(gcf,'Fig4.png')
 
 %% HD Delta Data Import
@@ -181,6 +224,16 @@ opts.StartPoint = [0.0654 2.4672640256 0.229562758725355 0.0413999999884987 3.55
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
+    coeffs = coeffvalues(fitresult);
+    ci = confint(fitresult);
+    pos1 = coeffs(1,2);
+    uncert1 = ci(2,2) - ci(1,2);
+    pos2 = coeffs(1,5);
+    uncert2 = ci(2,5) - ci(1,5);
+    
+    disp('HD Delta')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
 
 % Plot fit with data.
 figure( 'Name', 'HD Delta' );
@@ -189,7 +242,7 @@ plot( xData, yData );
 
 yFitted = feval(fitresult,xData);
 
-[HDDPks, HDDLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .01, 'MinPeakDistance', 1)
+[HDDPks, HDDLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .01, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .01, 'MinPeakDistance', 1)
 
 legend( 'HD Delta Raw Data', 'Gaussian Fit', 'Peaks', 'Location', 'NorthEast' );
@@ -199,7 +252,7 @@ ylabel 'Intensity [Arbitrary Units]'
 title 'HD Delta'
 grid on
 
-text(HDDLocs+.1, HDDPks, strcat("Pos = ", num2str(HDDLocs)))
+text(HDDLocs+.1, HDDPks, strcat("Pos = ", num2str(HDDLocs)));
 saveas(gcf,'Fig5.png')
 
 %% HD Gamma Data Import
@@ -222,6 +275,16 @@ opts.StartPoint = [0.0654 2.4672640256 0.229562758725355 0.0413999999884987 3.55
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
+    coeffs = coeffvalues(fitresult);
+    ci = confint(fitresult);
+    pos1 = coeffs(1,2);
+    uncert1 = ci(2,2) - ci(1,2);
+    pos2 = coeffs(1,5);
+    uncert2 = ci(2,5) - ci(1,5);
+    
+    disp('HD Gamma')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
 
 % Plot fit with data.
 figure( 'Name', 'HD Gamma' );
@@ -230,7 +293,7 @@ plot( xData, yData );
 
 yFitted = feval(fitresult,xData);
 
-[HDGPks, HDGLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .01, 'MinPeakDistance', 1)
+[HDGPks, HDGLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .01, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .01, 'MinPeakDistance', 1)
 
 legend( 'HD Gamma Raw Data', 'Gaussian Fit', 'Peaks', 'Location', 'NorthEast' );
@@ -268,7 +331,18 @@ opts.StartPoint = [0.01172 2.8532220352 0.207107224382333 0.00843999999999098 3.
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
+    coeffs = coeffvalues(fitresult);
+    ci = confint(fitresult);
+    pos1 = coeffs(1,2);
+    uncert1 = ci(2,2) - ci(1,2);
+    pos2 = coeffs(1,5);
+    uncert2 = ci(2,8) - ci(1,8);
+    
+    disp('HD Gamma Run 1')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
 
+    
 % Plot fit with data.
 figure( 'Name', 'HD Epsilon' );
 hold on;
@@ -276,7 +350,7 @@ plot( xData, yData );
 
 yFitted = feval(fitresult,xData);
 
-[HDE1Pks, HDE1Locs] = findpeaks(yFitted, xData, 'MinPeakProminence', .002, 'MinPeakDistance', 1)
+[HDE1Pks, HDE1Locs] = findpeaks(yFitted, xData, 'MinPeakProminence', .002, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .002, 'MinPeakDistance', 1)
 
 text(HDE1Locs+.1, HDE1Pks, strcat("Pos = ", num2str(HDE1Locs)))
@@ -294,13 +368,23 @@ opts.StartPoint = [0.01404 2.489109632 0.180194328042894 0.00907999999999999 3.5
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
+    coeffs = coeffvalues(fitresult);
+    ci = confint(fitresult);
+    pos1 = coeffs(1,2);
+    uncert1 = ci(2,2) - ci(1,2);
+    pos2 = coeffs(1,5);
+    uncert2 = ci(2,8) - ci(1,8);
+    
+    disp('HD Gamma Run 2')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
 
 % Plot fit with data.
 plot( xData, yData );
 
 yFitted = feval(fitresult,xData);
 
-[HDE2Pks, HDE2Locs] = findpeaks(yFitted, xData, 'MinPeakProminence', .002, 'MinPeakDistance', 1)
+[HDE2Pks, HDE2Locs] = findpeaks(yFitted, xData, 'MinPeakProminence', .002, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .002, 'MinPeakDistance', 1)
 
 legend( 'HD Epsilon Raw Data Run 1', 'Gaussian Fit Run 1', 'Peaks Run1','HD Epsilon Raw Data Run 2', 'Gaussian Fit Run 2', 'Peaks Run2', 'Location', 'NorthWest' );
@@ -312,3 +396,8 @@ grid on
 
 text(HDE2Locs+.1, HDE2Pks, strcat("Pos = ", num2str(HDE2Locs)))
 saveas(gcf,'Fig7.png')
+
+%% Export console
+
+diary off
+type consoleOutput.txt
