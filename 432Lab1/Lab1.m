@@ -21,8 +21,10 @@ opts.Lower = [-Inf -Inf 0 -Inf -Inf 0];
 opts.StartPoint = [0.772 4.531 2.52336275795925 0.668 35.899 1.91621639204114];
 
 % Fit model to data.
-[fitresult, gof] = fit( xData, yData, ft, opts );
-
+[fitresult, gof] = fit( xData, yData, ft, opts )
+ coeffs = coeffvalues(fitresult);
+ 1 / (coeffs(1,1) * sqrt(2*pi))
+ 
 % Plot fit with data.
 figure( 'Name', 'Na D Lines for Calibration' );
 hold on;
