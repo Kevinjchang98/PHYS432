@@ -22,17 +22,19 @@ opts.Lower = [-Inf -Inf 0 -Inf -Inf 0];
 opts.StartPoint = [0.772 4.531 2.52336275795925 0.668 35.899 1.91621639204114];
 
 % Fit model to data.
-[fitresult, gof] = fit( xData, yData, ft, opts );
+[fitresult, gof] = fit( xData, yData, ft, opts )
     coeffs = coeffvalues(fitresult);
     ci = confint(fitresult);
     pos1 = coeffs(1,2);
     uncert1 = ci(2,2) - ci(1,2);
     pos2 = coeffs(1,5);
     uncert2 = ci(2,5) - ci(1,5);
+    stdev1 = 1 / (sqrt(2*pi) * coeffs(1));
+    stdev2 = 1 / (sqrt(2*pi) * coeffs(4));
     
     disp('NaD Lines, Time')
-    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
-    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(stdev1/2)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(stdev2/2)])
     
     
 
@@ -77,10 +79,12 @@ opts.StartPoint = [0.772 0.859222592 0.478510326517328 0.668 6.807599168 0.36337
     uncert1 = ci(2,2) - ci(1,2);
     pos2 = coeffs(1,5);
     uncert2 = ci(2,5) - ci(1,5);
+    stdev1 = 1 / (sqrt(2*pi) * coeffs(1));
+    stdev2 = 1 / (sqrt(2*pi) * coeffs(4));
     
     disp('NaD Lines, Angstroms')
-    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
-    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(stdev1/2)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(stdev2/2)])
 
 % Plot fit with data.
 figure( 'Name', 'Na D Lines for Calibration in Angstroms' );
@@ -127,10 +131,12 @@ opts.StartPoint = [0.45 1.875839744 0.216394053182048 0.274 3.62660201344 0.2766
     uncert1 = ci(2,2) - ci(1,2);
     pos2 = coeffs(1,5);
     uncert2 = ci(2,5) - ci(1,5);
+    stdev1 = 1 / (sqrt(2*pi) * coeffs(1));
+    stdev2 = 1 / (sqrt(2*pi) * coeffs(4));
     
     disp('HD Alpha')
-    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
-    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(stdev1/2)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(stdev2/2)])
 
 % Plot fit with data.
 figure( 'Name', 'HD Alpha' );
@@ -151,7 +157,6 @@ grid on
 
 text(HDALocs+.1, HDAPks, strcat("Pos = ", num2str(HDALocs)));
 saveas(gcf,'Fig3.png')
-
 
 %% HD Beta Data Import
 
@@ -179,10 +184,12 @@ opts.StartPoint = [0.45 1.875839744 0.216394053182048 0.274 3.62660201344 0.2766
     uncert1 = ci(2,2) - ci(1,2);
     pos2 = coeffs(1,5);
     uncert2 = ci(2,5) - ci(1,5);
+    stdev1 = 1 / (sqrt(2*pi) * coeffs(1));
+    stdev2 = 1 / (sqrt(2*pi) * coeffs(4));
     
     disp('HD Beta')
-    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
-    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(stdev1/2)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(stdev2/2)])
 
 % Plot fit with data.
 figure( 'Name', 'HD Beta' );
@@ -230,10 +237,12 @@ opts.StartPoint = [0.0654 2.4672640256 0.229562758725355 0.0413999999884987 3.55
     uncert1 = ci(2,2) - ci(1,2);
     pos2 = coeffs(1,5);
     uncert2 = ci(2,5) - ci(1,5);
+    stdev1 = 1 / (sqrt(2*pi) * coeffs(1));
+    stdev2 = 1 / (sqrt(2*pi) * coeffs(4));
     
     disp('HD Delta')
-    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
-    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(stdev1/2)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(stdev2/2)])
 
 % Plot fit with data.
 figure( 'Name', 'HD Delta' );
@@ -281,10 +290,12 @@ opts.StartPoint = [0.0654 2.4672640256 0.229562758725355 0.0413999999884987 3.55
     uncert1 = ci(2,2) - ci(1,2);
     pos2 = coeffs(1,5);
     uncert2 = ci(2,5) - ci(1,5);
+    stdev1 = 1 / (sqrt(2*pi) * coeffs(1));
+    stdev2 = 1 / (sqrt(2*pi) * coeffs(4));
     
     disp('HD Gamma')
-    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
-    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(stdev1/2)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(stdev2/2)])
 
 % Plot fit with data.
 figure( 'Name', 'HD Gamma' );
@@ -337,10 +348,12 @@ opts.StartPoint = [0.01172 2.8532220352 0.207107224382333 0.00843999999999098 3.
     uncert1 = ci(2,2) - ci(1,2);
     pos2 = coeffs(1,5);
     uncert2 = ci(2,8) - ci(1,8);
+    stdev1 = 1 / (sqrt(2*pi) * coeffs(1));
+    stdev2 = 1 / (sqrt(2*pi) * coeffs(4));
     
-    disp('HD Gamma Run 1')
-    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
-    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    disp('HD Epsilon Run 1')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(stdev1/2)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(stdev2/2)])
 
     
 % Plot fit with data.
@@ -374,10 +387,12 @@ opts.StartPoint = [0.01404 2.489109632 0.180194328042894 0.00907999999999999 3.5
     uncert1 = ci(2,2) - ci(1,2);
     pos2 = coeffs(1,5);
     uncert2 = ci(2,8) - ci(1,8);
+    stdev1 = 1 / (sqrt(2*pi) * coeffs(1));
+    stdev2 = 1 / (sqrt(2*pi) * coeffs(4));
     
-    disp('HD Gamma Run 2')
-    disp([num2str(pos1), ' ', char(177), ' ', num2str(uncert1)])
-    disp([num2str(pos2), ' ', char(177), ' ', num2str(uncert2)])
+    disp('HD Epsilon Run 2')
+    disp([num2str(pos1), ' ', char(177), ' ', num2str(stdev1/2)])
+    disp([num2str(pos2), ' ', char(177), ' ', num2str(stdev2/2)])
 
 % Plot fit with data.
 plot( xData, yData );

@@ -140,3 +140,606 @@ HD Gamma Run 1
 HD Gamma Run 2
 2.4367 ± 0.004024
 3.4663 ± 0.077696
+HD Alpha
+1.8391 ± 0.0013652
+3.5945 ± 0.002284
+HD Alpha
+1.8391 ± 0.0013652
+3.5945 ± 0.002284
+
+ans =
+
+    1.7554
+
+
+ans =
+
+    0.0036
+
+
+furtherX =
+
+     []
+
+Lab1
+{Error: <a href="matlab: opentoline('/Users/kevinchang/Documents/PHYS-MATLAB/432Lab1/Lab1.m',409,101)">File: Lab1.m Line: 409 Column: 101
+</a>Invalid expression. When calling a function or indexing a variable,
+use parentheses. Otherwise, check for mismatched delimiters.
+} 
+Lab1
+{Error: <a href="matlab: opentoline('/Users/kevinchang/Documents/PHYS-MATLAB/432Lab1/Lab1.m',426,10)">File: Lab1.m Line: 426 Column: 10
+</a>This statement is incomplete.
+} 
+Lab1
+NaD Lines, Time
+4.4665 ± 0.0080565
+35.9538 ± 0.0087801
+NaD Lines, Angstroms
+0.84699 ± 0.0015278
+6.818 ± 0.001665
+HD Alpha
+1.8391 ± 0.0013652
+3.5945 ± 0.002284
+
+furtherY =
+
+    1.7554
+
+
+furtherdY =
+
+    0.0027
+
+HD Beta
+2.6051 ± 0.0013707
+3.8735 ± 0.0025665
+
+furtherY =
+
+    1.7554    1.2684
+
+
+furtherdY =
+
+    0.0027    0.0027
+
+HD Delta
+2.3953 ± 0.0039753
+3.4999 ± 0.0064505
+
+furtherY =
+
+    1.7554    1.2684    1.1046
+
+
+furtherdY =
+
+    0.0027    0.0027    0.0080
+
+HD Gamma
+2.2443 ± 0.0019585
+3.3939 ± 0.0033272
+
+furtherY =
+
+    1.7554    1.2684    1.1046    1.1496
+
+
+furtherdY =
+
+    0.0027    0.0027    0.0080    0.0039
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Lab1', '/Users/kevinchang/Documents/PHYS-MATLAB/432Lab1/Lab1.m', 347)" style="font-weight:bold">Lab1</a> (<a href="matlab: opentoline('/Users/kevinchang/Documents/PHYS-MATLAB/432Lab1/Lab1.m',347,0)">line 347</a>)
+Dimensions of arrays being concatenated are not consistent.
+} 
+Lab1
+NaD Lines, Time
+4.4665 ± 0.0080565
+35.9538 ± 0.0087801
+NaD Lines, Angstroms
+0.84699 ± 0.0015278
+6.818 ± 0.001665
+HD Alpha
+1.8391 ± 0.0013652
+3.5945 ± 0.002284
+
+furtherY =
+
+    1.7554
+
+
+furtherdY =
+
+    0.0027
+
+HD Beta
+2.6051 ± 0.0013707
+3.8735 ± 0.0025665
+
+furtherY =
+
+    1.7554    1.2684
+
+
+furtherdY =
+
+    0.0027    0.0027
+
+HD Delta
+2.3953 ± 0.0039753
+3.4999 ± 0.0064505
+
+furtherY =
+
+    1.7554    1.2684    1.1046
+
+
+furtherdY =
+
+    0.0027    0.0027    0.0080
+
+HD Gamma
+2.2443 ± 0.0019585
+3.3939 ± 0.0033272
+
+furtherY =
+
+    1.7554    1.2684    1.1046    1.1496
+
+
+furtherdY =
+
+    0.0027    0.0027    0.0080    0.0039
+
+HD Gamma Run 1
+2.8803 ± 0.0046033
+3.9373 ± 0.21018
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Lab1', '/Users/kevinchang/Documents/PHYS-MATLAB/432Lab1/Lab1.m', 383)" style="font-weight:bold">Lab1</a> (<a href="matlab: opentoline('/Users/kevinchang/Documents/PHYS-MATLAB/432Lab1/Lab1.m',383,0)">line 383</a>)
+Dimensions of arrays being concatenated are not consistent.
+} 
+Lab1
+NaD Lines, Time
+4.4665 ± 0.0080565
+35.9538 ± 0.0087801
+NaD Lines, Angstroms
+0.84699 ± 0.0015278
+6.818 ± 0.001665
+HD Alpha
+1.8391 ± 0.0013652
+3.5945 ± 0.002284
+
+furtherY =
+
+    1.7554
+
+
+furtherdY =
+
+    0.0027
+
+HD Beta
+2.6051 ± 0.0013707
+3.8735 ± 0.0025665
+
+furtherY =
+
+    1.7554    1.2684
+
+
+furtherdY =
+
+    0.0027    0.0027
+
+HD Delta
+2.3953 ± 0.0039753
+3.4999 ± 0.0064505
+
+furtherY =
+
+    1.7554    1.2684    1.1046
+
+
+furtherdY =
+
+    0.0027    0.0027    0.0080
+
+HD Gamma
+2.2443 ± 0.0019585
+3.3939 ± 0.0033272
+
+furtherY =
+
+    1.7554    1.2684    1.1046    1.1496
+
+
+furtherdY =
+
+    0.0027    0.0027    0.0080    0.0039
+
+HD Gamma Run 1
+2.8803 ± 0.0046033
+3.9373 ± 0.21018
+HD Gamma Run 2
+2.4367 ± 0.004024
+3.4663 ± 0.077696
+NaD Lines, Time
+4.4665 ± 0.0080565
+35.9538 ± 0.0087801
+NaD Lines, Angstroms
+0.84699 ± 0.0015278
+6.818 ± 0.001665
+HD Alpha
+1.8391 ± 0.0013652
+3.5945 ± 0.002284
+
+furtherY =
+
+    1.7554
+
+
+furtherdY =
+
+    0.0027
+
+
+altX =
+
+    1.8391
+
+HD Beta
+2.6051 ± 0.0013707
+3.8735 ± 0.0025665
+
+furtherY =
+
+    1.7554    1.2684
+
+
+furtherdY =
+
+    0.0027    0.0027
+
+
+altX =
+
+    1.8391    2.6051
+
+HD Delta
+2.3953 ± 0.0039753
+3.4999 ± 0.0064505
+
+furtherY =
+
+    1.7554    1.2684    1.1046
+
+
+furtherdY =
+
+    0.0027    0.0027    0.0080
+
+
+altX =
+
+    1.8391    2.6051    2.3953
+
+HD Gamma
+2.2443 ± 0.0019585
+3.3939 ± 0.0033272
+
+furtherY =
+
+    1.7554    1.2684    1.1046    1.1496
+
+
+furtherdY =
+
+    0.0027    0.0027    0.0080    0.0039
+
+
+altX =
+
+    1.8391    2.6051    2.3953    2.2443
+
+HD Gamma Run 1
+2.8803 ± 0.0046033
+3.9373 ± 0.21018
+HD Gamma Run 2
+2.4367 ± 0.004024
+3.4663 ± 0.077696
+NaD Lines, Time
+4.4665 ± 0.0080565
+35.9538 ± 0.0087801
+NaD Lines, Angstroms
+0.84699 ± 0.0015278
+6.818 ± 0.001665
+HD Alpha
+1.8391 ± 0.0013652
+3.5945 ± 0.002284
+HD Beta
+2.6051 ± 0.0013707
+3.8735 ± 0.0025665
+HD Delta
+2.3953 ± 0.0039753
+3.4999 ± 0.0064505
+HD Gamma
+2.2443 ± 0.0019585
+3.3939 ± 0.0033272
+HD Gamma Run 1
+2.8803 ± 0.0046033
+3.9373 ± 0.21018
+HD Gamma Run 2
+2.4367 ± 0.004024
+3.4663 ± 0.077696
+
+fitresult = 
+
+     General model Gauss2:
+     fitresult(x) =  a1*exp(-((x-b1)/c1)^2) + a2*exp(-((x-b2)/c2)^2)
+     Coefficients (with 95% confidence bounds):
+       a1 =      0.7378  (0.7347, 0.7408)
+       b1 =       4.466  (4.462, 4.471)
+       c1 =       1.188  (1.182, 1.194)
+       a2 =       0.644  (0.6408, 0.6472)
+       b2 =       35.95  (35.95, 35.96)
+       c2 =       1.075  (1.069, 1.081)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.6396
+       rsquare: 0.9887
+           dfe: 5194
+    adjrsquare: 0.9887
+          rmse: 0.0178
+
+NaD Lines, Time
+4.4665 ± 0.0080565
+35.9538 ± 0.0087801
+
+fitresult = 
+
+     General model Gauss2:
+     fitresult(x) =  a1*exp(-((x-b1)/c1)^2) + a2*exp(-((x-b2)/c2)^2)
+     Coefficients (with 95% confidence bounds):
+       a1 =      0.7378  (0.7347, 0.7408)
+       b1 =       4.466  (4.462, 4.471)
+       c1 =       1.188  (1.182, 1.194)
+       a2 =       0.644  (0.6408, 0.6472)
+       b2 =       35.95  (35.95, 35.96)
+       c2 =       1.075  (1.069, 1.081)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.6396
+       rsquare: 0.9887
+           dfe: 5194
+    adjrsquare: 0.9887
+          rmse: 0.0178
+
+
+stdev1 =
+
+    0.5407
+
+
+stdev2 =
+
+    0.6195
+
+NaD Lines, Time
+4.4665 ± 0.0080565
+35.9538 ± 0.0087801
+
+fitresult = 
+
+     General model Gauss2:
+     fitresult(x) =  a1*exp(-((x-b1)/c1)^2) + a2*exp(-((x-b2)/c2)^2)
+     Coefficients (with 95% confidence bounds):
+       a1 =      0.7378  (0.7347, 0.7408)
+       b1 =       4.466  (4.462, 4.471)
+       c1 =       1.188  (1.182, 1.194)
+       a2 =       0.644  (0.6408, 0.6472)
+       b2 =       35.95  (35.95, 35.96)
+       c2 =       1.075  (1.069, 1.081)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.6396
+       rsquare: 0.9887
+           dfe: 5194
+    adjrsquare: 0.9887
+          rmse: 0.0178
+
+
+stdev1 =
+
+    0.5407
+
+
+stdev2 =
+
+    0.6195
+
+NaD Lines, Time
+4.4665 ± 0.27037
+35.9538 ± 0.30974
+Lab1
+
+fitresult = 
+
+     General model Gauss2:
+     fitresult(x) =  a1*exp(-((x-b1)/c1)^2) + a2*exp(-((x-b2)/c2)^2)
+     Coefficients (with 95% confidence bounds):
+       a1 =      0.7378  (0.7347, 0.7408)
+       b1 =       4.466  (4.462, 4.471)
+       c1 =       1.188  (1.182, 1.194)
+       a2 =       0.644  (0.6408, 0.6472)
+       b2 =       35.95  (35.95, 35.96)
+       c2 =       1.075  (1.069, 1.081)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.6396
+       rsquare: 0.9887
+           dfe: 5194
+    adjrsquare: 0.9887
+          rmse: 0.0178
+
+
+stdev1 =
+
+    0.5407
+
+
+stdev2 =
+
+    0.6195
+
+NaD Lines, Time
+4.4665 ± 0.27037
+35.9538 ± 0.30974
+
+stdev1 =
+
+    0.5407
+
+
+stdev2 =
+
+    0.6195
+
+NaD Lines, Angstroms
+0.84699 ± 0.27037
+6.818 ± 0.30974
+
+stdev1 =
+
+    0.9143
+
+
+stdev2 =
+
+    1.4797
+
+HD Alpha
+1.8391 ± 0.45715
+3.5945 ± 0.73984
+
+stdev1 =
+
+    0.7523
+
+
+stdev2 =
+
+    1.3389
+
+HD Beta
+2.6051 ± 0.37617
+3.8735 ± 0.66943
+
+stdev1 =
+
+    6.4477
+
+
+stdev2 =
+
+   10.5055
+
+HD Delta
+2.3953 ± 3.2238
+3.4999 ± 5.2527
+
+stdev1 =
+
+    1.7106
+
+
+stdev2 =
+
+    2.8085
+
+HD Gamma
+2.2443 ± 0.85528
+3.3939 ± 1.4043
+
+stdev1 =
+
+   49.5584
+
+
+stdev2 =
+
+   78.6560
+
+HD Gamma Run 1
+2.8803 ± 24.7792
+3.9373 ± 39.328
+
+stdev1 =
+
+   41.5603
+
+
+stdev2 =
+
+   73.5122
+
+HD Gamma Run 2
+2.4367 ± 20.7802
+3.4663 ± 36.7561
+
+fitresult = 
+
+     General model Gauss2:
+     fitresult(x) =  a1*exp(-((x-b1)/c1)^2) + a2*exp(-((x-b2)/c2)^2)
+     Coefficients (with 95% confidence bounds):
+       a1 =      0.7378  (0.7347, 0.7408)
+       b1 =       4.466  (4.462, 4.471)
+       c1 =       1.188  (1.182, 1.194)
+       a2 =       0.644  (0.6408, 0.6472)
+       b2 =       35.95  (35.95, 35.96)
+       c2 =       1.075  (1.069, 1.081)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.6396
+       rsquare: 0.9887
+           dfe: 5194
+    adjrsquare: 0.9887
+          rmse: 0.0178
+
+NaD Lines, Time
+4.4665 ± 0.27037
+35.9538 ± 0.30974
+NaD Lines, Angstroms
+0.84699 ± 0.27037
+6.818 ± 0.30974
+HD Alpha
+1.8391 ± 0.45715
+3.5945 ± 0.73984
+HD Beta
+2.6051 ± 0.37617
+3.8735 ± 0.66943
+HD Delta
+2.3953 ± 3.2238
+3.4999 ± 5.2527
+HD Gamma
+2.2443 ± 0.85528
+3.3939 ± 1.4043
+HD Epsilon Run 1
+2.8803 ± 24.7792
+3.9373 ± 39.328
+HD Epsilon Run 2
+2.4367 ± 20.7802
+3.4663 ± 36.7561
