@@ -41,12 +41,8 @@ opts.SmoothingParam = 0.999644545562972;
 
 % Plot fit with data.
 figure( 'Name', 'untitled fit 1' );
-h = plot( fitresult, xData, yData, 'r.'  );
-% Label axes
-xlabel neonDataTopX
-ylabel neonDataTopY
-grid on
 hold on
+h = plot( fitresult, xData, yData, 'r.'  );
 
 % Bot Data
 [xData, yData] = prepareCurveData( neonDataBotX, neonDataBotY );
@@ -60,6 +56,10 @@ opts.SmoothingParam = 0.999644545562971;
 [fitresult, gof] = fit( xData, yData, ft, opts );
 h = plot( fitresult, xData, yData, 'r.' );
 
+% Label axes
+xlabel 'Voltage'
+ylabel 'Anode Current [nA]'
+grid on
 %% Fit: 'Mercury'.
 % Top Data
 [xData, yData] = prepareCurveData( mercuryDataTopX, mercuryDataTopY );
@@ -74,12 +74,8 @@ opts.SmoothingParam = 0.999644545562972;
 
 % Plot fit with data.
 figure( 'Name', 'untitled fit 1' );
-h = plot( fitresult, xData, yData, 'r.' );
-% Label axes
-xlabel neonDataTopX
-ylabel neonDataTopY
-grid on
 hold on
+h = plot( fitresult, xData, yData, 'r.' );
 
 % Bot Data
 [xData, yData] = prepareCurveData( mercuryDataBotX, mercuryDataBotY );
@@ -92,3 +88,8 @@ opts.SmoothingParam = 0.999644545562972;
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts );
 h = plot( fitresult, xData, yData, 'r.' );
+
+% Label axes
+xlabel 'Voltage'
+ylabel 'Anode Current [nA]'
+grid on
