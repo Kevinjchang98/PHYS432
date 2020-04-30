@@ -125,7 +125,7 @@ yFitted = feval(fitresult,xData);
 
 disp('Mercury Bot')
 
-[HDBPks, HDBLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1);
+[HDBPks, HDBLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
 findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
 
 text(HDBLocs+.3, HDBPks, num2str(HDBLocs));
@@ -135,3 +135,7 @@ text(HDBLocs+.3, HDBPks, num2str(HDBLocs));
 xlabel 'Voltage'
 ylabel 'Anode Current [nA]'
 grid on
+
+%% Console Save
+diary off
+type consoleOutput.txt
