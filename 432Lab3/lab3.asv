@@ -70,7 +70,7 @@ h = plot( fitresult, xData, yData, 'r.' );
 % Find peaks
 yFitted = feval(fitresult,xData);
     
-disp('Neon Bot')
+disp('Neon Top')
 
 [HDBPks, HDBLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
 findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
@@ -100,10 +100,8 @@ h = plot( fitresult, xData, yData, 'r.' );
 
 % Find peaks
 yFitted = feval(fitresult,xData);
-    
-disp('Mercury Top')
 
-[HDBPks, HDBLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
+[HDBPks, HDBLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
 
 text(HDBLocs+.3, HDBPks, num2str(HDBLocs));
@@ -122,8 +120,6 @@ h = plot( fitresult, xData, yData, 'r.' );
 
 % Find peaks
 yFitted = feval(fitresult,xData);
-
-disp('Mercury Bot')
 
 [HDBPks, HDBLocs] = findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1);
 findpeaks(yFitted, xData, 'MinPeakProminence', .1, 'MinPeakDistance', 1)
