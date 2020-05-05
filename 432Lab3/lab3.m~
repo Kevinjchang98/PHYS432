@@ -180,11 +180,11 @@ figure( 'Name', 'Neon Bot' );
 hold on;
 
 %% Fit: 'Neon Bot'.
-NBPLocsLength = [1; 2; 3; 4];
-NBTLocsLength = [1; 2; 3];
+NBPLocsLength = [1; 2; 3; 4]
+NBTLocsLength = [1; 2; 3]
 
-MBPLocsLength = [1; 2; 3; 4; 5; 6];
-MBTLocsLength = [1; 2; 3; 4; 5; 6];
+MBPLocsLength = [1; 2; 3; 4; 5; 6]
+MBTLocsLength = [1; 2; 3; 4; 5; 6]
 
 [xData, yData] = prepareCurveData( NBPLocsLength, NBPLocs );
 
@@ -192,10 +192,10 @@ MBTLocsLength = [1; 2; 3; 4; 5; 6];
 ft = fittype( 'poly1' );
 
 % Fit model to data.
-[fitresult, gof] = fit( xData, yData, ft )
+[fitresult, gof] = fit( xData, yData, ft );
 
 % Plot fit with data.
-figure( 'Name', 'Neon Preliminary Plot' );
+figure( 'Name', 'untitled fit 1' );
 hold on
 plot( fitresult, xData, yData, 'bo');
 
@@ -206,14 +206,14 @@ plot( fitresult, xData, yData, 'bo');
 ft = fittype( 'poly1' );
 
 % Fit model to data.
-[fitresult, gof] = fit( xData, yData, ft )
+[fitresult, gof] = fit( xData, yData, ft );
 
 % Plot fit with data.
 plot( fitresult, xData, yData, 'ro');
 % Label axes
-xlabel 'Peak/Trough Number'
-ylabel 'Peak/Trough Voltage'
-legend('Peaks', 'Peaks Line Fit', 'Troughs', 'Troughs Line Fit', 'Location', 'NorthWest')
+xlabel MBPLocsLength
+ylabel MBPLocs
+legend('Peaks', 'Peaks Data', 'Troughs', 
 grid on
 
 
@@ -224,10 +224,10 @@ grid on
 ft = fittype( 'poly1' );
 
 % Fit model to data.
-[fitresult, gof] = fit( xData, yData, ft )
+[fitresult, gof] = fit( xData, yData, ft );
 
 % Plot fit with data.
-figure( 'Name', 'Mercury Preliminary Plot' );
+figure( 'Name', 'untitled fit 1' );
 hold on
 plot( fitresult, xData, yData, 'bo');
 
@@ -238,14 +238,13 @@ plot( fitresult, xData, yData, 'bo');
 ft = fittype( 'poly1' );
 
 % Fit model to data.
-[fitresult, gof] = fit( xData, yData, ft )
+[fitresult, gof] = fit( xData, yData, ft );
 
 % Plot fit with data.
 plot( fitresult, xData, yData, 'ro');
 % Label axes
-xlabel 'Peak/Trough Number'
-ylabel 'Peak/Trough Voltage'
-legend('Peaks', 'Peaks Line Fit', 'Troughs', 'Troughs Line Fit', 'Location', 'NorthWest')
+xlabel MBPLocsLength
+ylabel MBPLocs
 grid on
 
 
