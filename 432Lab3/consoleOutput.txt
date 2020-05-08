@@ -192,3 +192,2020 @@ MBTroughs =
     1.3902
     2.2223
 
+Neon Top
+
+NTPeaks =
+
+    6.7309
+    7.2034
+    6.7687
+    7.1462
+    7.5361
+
+
+NTPLocs =
+
+    5.1452
+   22.1289
+   39.0647
+   42.5949
+   63.1511
+
+Neon Top
+
+NTTroughs =
+
+   -5.0819
+   -4.8908
+   -6.5476
+   -4.5579
+
+
+NTTLocs =
+
+   14.9302
+   33.6314
+   39.6812
+   54.0521
+
+
+NTTroughs =
+
+    5.0819
+    4.8908
+    6.5476
+    4.5579
+
+Neon Bot
+
+NBPeaks =
+
+    1.9224
+    3.5475
+    5.4470
+    7.5472
+
+
+NBPLocs =
+
+   13.5494
+   30.7145
+   48.5865
+   67.9590
+
+Neon Bot
+
+NBTroughs =
+
+    0.3485
+    0.5604
+   -0.8693
+
+
+NBTLocs =
+
+   20.6854
+   38.3719
+   57.3005
+
+
+NBTroughs =
+
+   -0.3485
+   -0.5604
+    0.8693
+
+Mercury Top
+
+MTPeaks =
+
+    3.0957
+    3.3636
+    3.5765
+    3.7235
+    3.7702
+    3.7469
+    3.6806
+    3.4637
+
+
+MTPLocs =
+
+    6.6950
+   11.3098
+   16.0942
+   20.9887
+   25.7576
+   30.6054
+   35.5943
+   40.4221
+
+Mercury Top
+
+MTTroughs =
+
+   -2.9566
+   -2.6716
+   -2.3233
+   -2.0581
+   -2.0311
+   -2.1473
+   -2.3581
+
+
+MTTLocs =
+
+    8.1406
+   12.6105
+   17.3662
+   22.2755
+   27.1220
+   32.4242
+   37.3547
+
+
+MTTroughs =
+
+    2.9566
+    2.6716
+    2.3233
+    2.0581
+    2.0311
+    2.1473
+    2.3581
+
+Mercury Bot
+
+MBPeaks =
+
+    0.7204
+    1.4372
+    2.0672
+    2.4914
+    2.9137
+    3.2624
+
+
+MBPLocs =
+
+   11.5292
+   16.3971
+   21.3140
+   26.2365
+   31.2771
+   36.3978
+
+Mercury Bot
+
+MBTroughs =
+
+   -0.1283
+   -0.2706
+   -0.5045
+   -0.8562
+   -1.3902
+   -2.2223
+
+
+MBTLocs =
+
+   13.1618
+   18.0855
+   23.1645
+   28.3443
+   33.3383
+   38.8016
+
+
+MBTroughs =
+
+    0.1283
+    0.2706
+    0.5045
+    0.8562
+    1.3902
+    2.2223
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =      0.5519  (-0.5755, 1.679)
+       p2 =       15.35  (9.624, 21.08)
+       p3 =      -2.314  (-8.591, 3.963)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0315
+       rsquare: 1.0000
+           dfe: 1
+    adjrsquare: 0.9999
+          rmse: 0.1775
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.31  (13.75, 22.86)
+       p2 =       2.171  (-7.671, 12.01)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.2571
+       rsquare: 0.9996
+           dfe: 1
+    adjrsquare: 0.9992
+          rmse: 0.5071
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       4.969  (4.904, 5.034)
+       p2 =       6.468  (6.214, 6.722)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0385
+       rsquare: 0.9999
+           dfe: 4
+    adjrsquare: 0.9999
+          rmse: 0.0982
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       5.118  (5.017, 5.219)
+       p2 =       7.902  (7.509, 8.295)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0924
+       rsquare: 0.9998
+           dfe: 4
+    adjrsquare: 0.9997
+          rmse: 0.1520
+
+Neon Top
+
+NTPeaks =
+
+    6.7309
+    7.2034
+    6.7687
+    7.1462
+    7.5361
+
+
+NTPLocs =
+
+    5.1452
+   22.1289
+   39.0647
+   42.5949
+   63.1511
+
+Neon Top
+
+NTTroughs =
+
+   -5.0819
+   -4.8908
+   -6.5476
+   -4.5579
+
+
+NTTLocs =
+
+   14.9302
+   33.6314
+   39.6812
+   54.0521
+
+
+NTTroughs =
+
+    5.0819
+    4.8908
+    6.5476
+    4.5579
+
+Neon Bot
+
+NBPeaks =
+
+    1.9224
+    3.5475
+    5.4470
+    7.5472
+
+
+NBPLocs =
+
+   13.5494
+   30.7145
+   48.5865
+   67.9590
+
+Neon Bot
+
+NBTroughs =
+
+    0.3485
+    0.5604
+   -0.8693
+
+
+NBTLocs =
+
+   20.6854
+   38.3719
+   57.3005
+
+
+NBTroughs =
+
+   -0.3485
+   -0.5604
+    0.8693
+
+Mercury Top
+
+MTPeaks =
+
+    3.0957
+    3.3636
+    3.5765
+    3.7235
+    3.7702
+    3.7469
+    3.6806
+    3.4637
+
+
+MTPLocs =
+
+    6.6950
+   11.3098
+   16.0942
+   20.9887
+   25.7576
+   30.6054
+   35.5943
+   40.4221
+
+Mercury Top
+
+MTTroughs =
+
+   -2.9566
+   -2.6716
+   -2.3233
+   -2.0581
+   -2.0311
+   -2.1473
+   -2.3581
+
+
+MTTLocs =
+
+    8.1406
+   12.6105
+   17.3662
+   22.2755
+   27.1220
+   32.4242
+   37.3547
+
+
+MTTroughs =
+
+    2.9566
+    2.6716
+    2.3233
+    2.0581
+    2.0311
+    2.1473
+    2.3581
+
+Mercury Bot
+
+MBPeaks =
+
+    0.7204
+    1.4372
+    2.0672
+    2.4914
+    2.9137
+    3.2624
+
+
+MBPLocs =
+
+   11.5292
+   16.3971
+   21.3140
+   26.2365
+   31.2771
+   36.3978
+
+Mercury Bot
+
+MBTroughs =
+
+   -0.1283
+   -0.2706
+   -0.5045
+   -0.8562
+   -1.3902
+   -2.2223
+
+
+MBTLocs =
+
+   13.1618
+   18.0855
+   23.1645
+   28.3443
+   33.3383
+   38.8016
+
+
+MBTroughs =
+
+    0.1283
+    0.2706
+    0.5045
+    0.8562
+    1.3902
+    2.2223
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.11  (16.59, 19.63)
+       p2 =      -5.073  (-9.238, -0.9074)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.2496
+       rsquare: 0.9992
+           dfe: 2
+    adjrsquare: 0.9989
+          rmse: 0.7905
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.31  (13.75, 22.86)
+       p2 =       2.171  (-7.671, 12.01)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.2571
+       rsquare: 0.9996
+           dfe: 1
+    adjrsquare: 0.9992
+          rmse: 0.5071
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       4.969  (4.904, 5.034)
+       p2 =       6.468  (6.214, 6.722)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0385
+       rsquare: 0.9999
+           dfe: 4
+    adjrsquare: 0.9999
+          rmse: 0.0982
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       5.118  (5.017, 5.219)
+       p2 =       7.902  (7.509, 8.295)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0924
+       rsquare: 0.9998
+           dfe: 4
+    adjrsquare: 0.9997
+          rmse: 0.1520
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =      0.5519  (-0.5755, 1.679)
+       p2 =       15.35  (9.624, 21.08)
+       p3 =      -2.314  (-8.591, 3.963)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0315
+       rsquare: 1.0000
+           dfe: 1
+    adjrsquare: 0.9999
+          rmse: 0.1775
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.31  (13.75, 22.86)
+       p2 =       2.171  (-7.671, 12.01)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.2571
+       rsquare: 0.9996
+           dfe: 1
+    adjrsquare: 0.9992
+          rmse: 0.5071
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =     0.03141  (0.01892, 0.04389)
+       p2 =       4.749  (4.66, 4.838)
+       p3 =       6.761  (6.625, 6.898)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0017
+       rsquare: 1.0000
+           dfe: 3
+    adjrsquare: 1.0000
+          rmse: 0.0240
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       5.118  (5.017, 5.219)
+       p2 =       7.902  (7.509, 8.295)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0924
+       rsquare: 0.9998
+           dfe: 4
+    adjrsquare: 0.9997
+          rmse: 0.1520
+
+Neon Top
+
+NTPeaks =
+
+    6.7309
+    7.2034
+    6.7687
+    7.1462
+    7.5361
+
+
+NTPLocs =
+
+    5.1452
+   22.1289
+   39.0647
+   42.5949
+   63.1511
+
+Neon Top
+
+NTTroughs =
+
+   -5.0819
+   -4.8908
+   -6.5476
+   -4.5579
+
+
+NTTLocs =
+
+   14.9302
+   33.6314
+   39.6812
+   54.0521
+
+
+NTTroughs =
+
+    5.0819
+    4.8908
+    6.5476
+    4.5579
+
+Neon Bot
+
+NBPeaks =
+
+    1.9224
+    3.5475
+    5.4470
+    7.5472
+
+
+NBPLocs =
+
+   13.5494
+   30.7145
+   48.5865
+   67.9590
+
+Neon Bot
+
+NBTroughs =
+
+    0.3485
+    0.5604
+   -0.8693
+
+
+NBTLocs =
+
+   20.6854
+   38.3719
+   57.3005
+
+
+NBTroughs =
+
+   -0.3485
+   -0.5604
+    0.8693
+
+Mercury Top
+
+MTPeaks =
+
+    3.0957
+    3.3636
+    3.5765
+    3.7235
+    3.7702
+    3.7469
+    3.6806
+    3.4637
+
+
+MTPLocs =
+
+    6.6950
+   11.3098
+   16.0942
+   20.9887
+   25.7576
+   30.6054
+   35.5943
+   40.4221
+
+Mercury Top
+
+MTTroughs =
+
+   -2.9566
+   -2.6716
+   -2.3233
+   -2.0581
+   -2.0311
+   -2.1473
+   -2.3581
+
+
+MTTLocs =
+
+    8.1406
+   12.6105
+   17.3662
+   22.2755
+   27.1220
+   32.4242
+   37.3547
+
+
+MTTroughs =
+
+    2.9566
+    2.6716
+    2.3233
+    2.0581
+    2.0311
+    2.1473
+    2.3581
+
+Mercury Bot
+
+MBPeaks =
+
+    0.7204
+    1.4372
+    2.0672
+    2.4914
+    2.9137
+    3.2624
+
+
+MBPLocs =
+
+   11.5292
+   16.3971
+   21.3140
+   26.2365
+   31.2771
+   36.3978
+
+Mercury Bot
+
+MBTroughs =
+
+   -0.1283
+   -0.2706
+   -0.5045
+   -0.8562
+   -1.3902
+   -2.2223
+
+
+MBTLocs =
+
+   13.1618
+   18.0855
+   23.1645
+   28.3443
+   33.3383
+   38.8016
+
+
+MBTroughs =
+
+    0.1283
+    0.2706
+    0.5045
+    0.8562
+    1.3902
+    2.2223
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.11  (16.59, 19.63)
+       p2 =      -5.073  (-9.238, -0.9074)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.2496
+       rsquare: 0.9992
+           dfe: 2
+    adjrsquare: 0.9989
+          rmse: 0.7905
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.31  (13.75, 22.86)
+       p2 =       2.171  (-7.671, 12.01)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.2571
+       rsquare: 0.9996
+           dfe: 1
+    adjrsquare: 0.9992
+          rmse: 0.5071
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       4.969  (4.904, 5.034)
+       p2 =       6.468  (6.214, 6.722)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0385
+       rsquare: 0.9999
+           dfe: 4
+    adjrsquare: 0.9999
+          rmse: 0.0982
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       5.118  (5.017, 5.219)
+       p2 =       7.902  (7.509, 8.295)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0924
+       rsquare: 0.9998
+           dfe: 4
+    adjrsquare: 0.9997
+          rmse: 0.1520
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =      0.5519  (-0.5755, 1.679)
+       p2 =       15.35  (9.624, 21.08)
+       p3 =      -2.314  (-8.591, 3.963)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0315
+       rsquare: 1.0000
+           dfe: 1
+    adjrsquare: 0.9999
+          rmse: 0.1775
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.31  (13.75, 22.86)
+       p2 =       2.171  (-7.671, 12.01)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.2571
+       rsquare: 0.9996
+           dfe: 1
+    adjrsquare: 0.9992
+          rmse: 0.5071
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =     0.03141  (0.01892, 0.04389)
+       p2 =       4.749  (4.66, 4.838)
+       p3 =       6.761  (6.625, 6.898)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0017
+       rsquare: 1.0000
+           dfe: 3
+    adjrsquare: 1.0000
+          rmse: 0.0240
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       5.118  (5.017, 5.219)
+       p2 =       7.902  (7.509, 8.295)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0924
+       rsquare: 0.9998
+           dfe: 4
+    adjrsquare: 0.9997
+          rmse: 0.1520
+
+Neon Top
+
+NTPeaks =
+
+    6.7309
+    7.2034
+    6.7687
+    7.1462
+    7.5361
+
+
+NTPLocs =
+
+    5.1452
+   22.1289
+   39.0647
+   42.5949
+   63.1511
+
+Neon Top
+
+NTTroughs =
+
+   -5.0819
+   -4.8908
+   -6.5476
+   -4.5579
+
+
+NTTLocs =
+
+   14.9302
+   33.6314
+   39.6812
+   54.0521
+
+
+NTTroughs =
+
+    5.0819
+    4.8908
+    6.5476
+    4.5579
+
+Neon Bot
+
+NBPeaks =
+
+    1.9224
+    3.5475
+    5.4470
+    7.5472
+
+
+NBPLocs =
+
+   13.5494
+   30.7145
+   48.5865
+   67.9590
+
+Neon Bot
+
+NBTroughs =
+
+    0.3485
+    0.5604
+   -0.8693
+
+
+NBTLocs =
+
+   20.6854
+   38.3719
+   57.3005
+
+
+NBTroughs =
+
+   -0.3485
+   -0.5604
+    0.8693
+
+Mercury Top
+
+MTPeaks =
+
+    3.0957
+    3.3636
+    3.5765
+    3.7235
+    3.7702
+    3.7469
+    3.6806
+    3.4637
+
+
+MTPLocs =
+
+    6.6950
+   11.3098
+   16.0942
+   20.9887
+   25.7576
+   30.6054
+   35.5943
+   40.4221
+
+Mercury Top
+
+MTTroughs =
+
+   -2.9566
+   -2.6716
+   -2.3233
+   -2.0581
+   -2.0311
+   -2.1473
+   -2.3581
+
+
+MTTLocs =
+
+    8.1406
+   12.6105
+   17.3662
+   22.2755
+   27.1220
+   32.4242
+   37.3547
+
+
+MTTroughs =
+
+    2.9566
+    2.6716
+    2.3233
+    2.0581
+    2.0311
+    2.1473
+    2.3581
+
+Mercury Bot
+
+MBPeaks =
+
+    0.7204
+    1.4372
+    2.0672
+    2.4914
+    2.9137
+    3.2624
+
+
+MBPLocs =
+
+   11.5292
+   16.3971
+   21.3140
+   26.2365
+   31.2771
+   36.3978
+
+Mercury Bot
+
+MBTroughs =
+
+   -0.1283
+   -0.2706
+   -0.5045
+   -0.8562
+   -1.3902
+   -2.2223
+
+
+MBTLocs =
+
+   13.1618
+   18.0855
+   23.1645
+   28.3443
+   33.3383
+   38.8016
+
+
+MBTroughs =
+
+    0.1283
+    0.2706
+    0.5045
+    0.8562
+    1.3902
+    2.2223
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.11  (16.59, 19.63)
+       p2 =      -5.073  (-9.238, -0.9074)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.2496
+       rsquare: 0.9992
+           dfe: 2
+    adjrsquare: 0.9989
+          rmse: 0.7905
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.31  (13.75, 22.86)
+       p2 =       2.171  (-7.671, 12.01)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.2571
+       rsquare: 0.9996
+           dfe: 1
+    adjrsquare: 0.9992
+          rmse: 0.5071
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       4.969  (4.904, 5.034)
+       p2 =       6.468  (6.214, 6.722)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0385
+       rsquare: 0.9999
+           dfe: 4
+    adjrsquare: 0.9999
+          rmse: 0.0982
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       5.118  (5.017, 5.219)
+       p2 =       7.902  (7.509, 8.295)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0924
+       rsquare: 0.9998
+           dfe: 4
+    adjrsquare: 0.9997
+          rmse: 0.1520
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =      0.5519  (-0.5755, 1.679)
+       p2 =       15.35  (9.624, 21.08)
+       p3 =      -2.314  (-8.591, 3.963)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0315
+       rsquare: 1.0000
+           dfe: 1
+    adjrsquare: 0.9999
+          rmse: 0.1775
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients:
+       p1 =      0.6211
+       p2 =       15.82
+       p3 =       4.241
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 6.3109e-29
+       rsquare: 1
+           dfe: 0
+    adjrsquare: NaN
+          rmse: NaN
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =     0.03141  (0.01892, 0.04389)
+       p2 =       4.749  (4.66, 4.838)
+       p3 =       6.761  (6.625, 6.898)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0017
+       rsquare: 1.0000
+           dfe: 3
+    adjrsquare: 1.0000
+          rmse: 0.0240
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =     0.04211  (-0.006617, 0.09083)
+       p2 =       4.823  (4.475, 5.172)
+       p3 =       8.295  (7.763, 8.828)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0263
+       rsquare: 0.9999
+           dfe: 3
+    adjrsquare: 0.9999
+          rmse: 0.0935
+
+Neon Top
+
+NTPeaks =
+
+    6.7309
+    7.2034
+    6.7687
+    7.1462
+    7.5361
+
+
+NTPLocs =
+
+    5.1452
+   22.1289
+   39.0647
+   42.5949
+   63.1511
+
+Neon Top
+
+NTTroughs =
+
+   -5.0819
+   -4.8908
+   -6.5476
+   -4.5579
+
+
+NTTLocs =
+
+   14.9302
+   33.6314
+   39.6812
+   54.0521
+
+
+NTTroughs =
+
+    5.0819
+    4.8908
+    6.5476
+    4.5579
+
+Neon Bot
+
+NBPeaks =
+
+    1.9224
+    3.5475
+    5.4470
+    7.5472
+
+
+NBPLocs =
+
+   13.5494
+   30.7145
+   48.5865
+   67.9590
+
+Neon Bot
+
+NBTroughs =
+
+    0.3485
+    0.5604
+   -0.8693
+
+
+NBTLocs =
+
+   20.6854
+   38.3719
+   57.3005
+
+
+NBTroughs =
+
+   -0.3485
+   -0.5604
+    0.8693
+
+Mercury Top
+
+MTPeaks =
+
+    3.0957
+    3.3636
+    3.5765
+    3.7235
+    3.7702
+    3.7469
+    3.6806
+    3.4637
+
+
+MTPLocs =
+
+    6.6950
+   11.3098
+   16.0942
+   20.9887
+   25.7576
+   30.6054
+   35.5943
+   40.4221
+
+Mercury Top
+
+MTTroughs =
+
+   -2.9566
+   -2.6716
+   -2.3233
+   -2.0581
+   -2.0311
+   -2.1473
+   -2.3581
+
+
+MTTLocs =
+
+    8.1406
+   12.6105
+   17.3662
+   22.2755
+   27.1220
+   32.4242
+   37.3547
+
+
+MTTroughs =
+
+    2.9566
+    2.6716
+    2.3233
+    2.0581
+    2.0311
+    2.1473
+    2.3581
+
+Mercury Bot
+
+MBPeaks =
+
+    0.7204
+    1.4372
+    2.0672
+    2.4914
+    2.9137
+    3.2624
+
+
+MBPLocs =
+
+   11.5292
+   16.3971
+   21.3140
+   26.2365
+   31.2771
+   36.3978
+
+Mercury Bot
+
+MBTroughs =
+
+   -0.1283
+   -0.2706
+   -0.5045
+   -0.8562
+   -1.3902
+   -2.2223
+
+
+MBTLocs =
+
+   13.1618
+   18.0855
+   23.1645
+   28.3443
+   33.3383
+   38.8016
+
+
+MBTroughs =
+
+    0.1283
+    0.2706
+    0.5045
+    0.8562
+    1.3902
+    2.2223
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.11  (16.59, 19.63)
+       p2 =      -5.073  (-9.238, -0.9074)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.2496
+       rsquare: 0.9992
+           dfe: 2
+    adjrsquare: 0.9989
+          rmse: 0.7905
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.31  (13.75, 22.86)
+       p2 =       2.171  (-7.671, 12.01)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.2571
+       rsquare: 0.9996
+           dfe: 1
+    adjrsquare: 0.9992
+          rmse: 0.5071
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       4.969  (4.904, 5.034)
+       p2 =       6.468  (6.214, 6.722)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0385
+       rsquare: 0.9999
+           dfe: 4
+    adjrsquare: 0.9999
+          rmse: 0.0982
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       5.118  (5.017, 5.219)
+       p2 =       7.902  (7.509, 8.295)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0924
+       rsquare: 0.9998
+           dfe: 4
+    adjrsquare: 0.9997
+          rmse: 0.1520
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =      0.5519  (-0.5755, 1.679)
+       p2 =       15.35  (9.624, 21.08)
+       p3 =      -2.314  (-8.591, 3.963)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0315
+       rsquare: 1.0000
+           dfe: 1
+    adjrsquare: 0.9999
+          rmse: 0.1775
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients:
+       p1 =      0.6211
+       p2 =       15.82
+       p3 =       4.241
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 6.3109e-29
+       rsquare: 1
+           dfe: 0
+    adjrsquare: NaN
+          rmse: NaN
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =     0.03141  (0.01892, 0.04389)
+       p2 =       4.749  (4.66, 4.838)
+       p3 =       6.761  (6.625, 6.898)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0017
+       rsquare: 1.0000
+           dfe: 3
+    adjrsquare: 1.0000
+          rmse: 0.0240
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =     0.04211  (-0.006617, 0.09083)
+       p2 =       4.823  (4.475, 5.172)
+       p3 =       8.295  (7.763, 8.828)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0263
+       rsquare: 0.9999
+           dfe: 3
+    adjrsquare: 0.9999
+          rmse: 0.0935
+
+Neon Top
+
+NTPeaks =
+
+    6.7309
+    7.2034
+    6.7687
+    7.1462
+    7.5361
+
+
+NTPLocs =
+
+    5.1452
+   22.1289
+   39.0647
+   42.5949
+   63.1511
+
+Neon Top
+
+NTTroughs =
+
+   -5.0819
+   -4.8908
+   -6.5476
+   -4.5579
+
+
+NTTLocs =
+
+   14.9302
+   33.6314
+   39.6812
+   54.0521
+
+
+NTTroughs =
+
+    5.0819
+    4.8908
+    6.5476
+    4.5579
+
+Neon Bot
+
+NBPeaks =
+
+    1.9224
+    3.5475
+    5.4470
+    7.5472
+
+
+NBPLocs =
+
+   13.5494
+   30.7145
+   48.5865
+   67.9590
+
+Neon Bot
+
+NBTroughs =
+
+    0.3485
+    0.5604
+   -0.8693
+
+
+NBTLocs =
+
+   20.6854
+   38.3719
+   57.3005
+
+
+NBTroughs =
+
+   -0.3485
+   -0.5604
+    0.8693
+
+Mercury Top
+
+MTPeaks =
+
+    3.0957
+    3.3636
+    3.5765
+    3.7235
+    3.7702
+    3.7469
+    3.6806
+    3.4637
+
+
+MTPLocs =
+
+    6.6950
+   11.3098
+   16.0942
+   20.9887
+   25.7576
+   30.6054
+   35.5943
+   40.4221
+
+Mercury Top
+
+MTTroughs =
+
+   -2.9566
+   -2.6716
+   -2.3233
+   -2.0581
+   -2.0311
+   -2.1473
+   -2.3581
+
+
+MTTLocs =
+
+    8.1406
+   12.6105
+   17.3662
+   22.2755
+   27.1220
+   32.4242
+   37.3547
+
+
+MTTroughs =
+
+    2.9566
+    2.6716
+    2.3233
+    2.0581
+    2.0311
+    2.1473
+    2.3581
+
+Mercury Bot
+
+MBPeaks =
+
+    0.7204
+    1.4372
+    2.0672
+    2.4914
+    2.9137
+    3.2624
+
+
+MBPLocs =
+
+   11.5292
+   16.3971
+   21.3140
+   26.2365
+   31.2771
+   36.3978
+
+Mercury Bot
+
+MBTroughs =
+
+   -0.1283
+   -0.2706
+   -0.5045
+   -0.8562
+   -1.3902
+   -2.2223
+
+
+MBTLocs =
+
+   13.1618
+   18.0855
+   23.1645
+   28.3443
+   33.3383
+   38.8016
+
+
+MBTroughs =
+
+    0.1283
+    0.2706
+    0.5045
+    0.8562
+    1.3902
+    2.2223
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.11  (16.59, 19.63)
+       p2 =      -5.073  (-9.238, -0.9074)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 1.2496
+       rsquare: 0.9992
+           dfe: 2
+    adjrsquare: 0.9989
+          rmse: 0.7905
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       18.31  (13.75, 22.86)
+       p2 =       2.171  (-7.671, 12.01)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.2571
+       rsquare: 0.9996
+           dfe: 1
+    adjrsquare: 0.9992
+          rmse: 0.5071
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       4.969  (4.904, 5.034)
+       p2 =       6.468  (6.214, 6.722)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0385
+       rsquare: 0.9999
+           dfe: 4
+    adjrsquare: 0.9999
+          rmse: 0.0982
+
+
+fitresult = 
+
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+     Coefficients (with 95% confidence bounds):
+       p1 =       5.118  (5.017, 5.219)
+       p2 =       7.902  (7.509, 8.295)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0924
+       rsquare: 0.9998
+           dfe: 4
+    adjrsquare: 0.9997
+          rmse: 0.1520
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =      0.5519  (-0.5755, 1.679)
+       p2 =       15.35  (9.624, 21.08)
+       p3 =      -2.314  (-8.591, 3.963)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0315
+       rsquare: 1.0000
+           dfe: 1
+    adjrsquare: 0.9999
+          rmse: 0.1775
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients:
+       p1 =      0.6211
+       p2 =       15.82
+       p3 =       4.241
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 6.3109e-29
+       rsquare: 1
+           dfe: 0
+    adjrsquare: NaN
+          rmse: NaN
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =     0.03141  (0.01892, 0.04389)
+       p2 =       4.749  (4.66, 4.838)
+       p3 =       6.761  (6.625, 6.898)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0017
+       rsquare: 1.0000
+           dfe: 3
+    adjrsquare: 1.0000
+          rmse: 0.0240
+
+
+fitresult = 
+
+     Linear model Poly2:
+     fitresult(x) = p1*x^2 + p2*x + p3
+     Coefficients (with 95% confidence bounds):
+       p1 =     0.04211  (-0.006617, 0.09083)
+       p2 =       4.823  (4.475, 5.172)
+       p3 =       8.295  (7.763, 8.828)
+
+gof = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           sse: 0.0263
+       rsquare: 0.9999
+           dfe: 3
+    adjrsquare: 0.9999
+          rmse: 0.0935
+

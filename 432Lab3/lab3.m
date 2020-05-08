@@ -179,7 +179,7 @@ grid on
 figure( 'Name', 'Neon Bot' );
 hold on;
 
-%% Fit: 'Neon Bot'.
+%% Fit: 'Linear Neon Bot'.
 NBPLocsLength = [1; 2; 3; 4];
 NBTLocsLength = [1; 2; 3];
 
@@ -217,7 +217,7 @@ legend('Peaks', 'Peaks Line Fit', 'Troughs', 'Troughs Line Fit', 'Location', 'No
 grid on
 
 
-%% Fit: 'Mercury Bot'.
+%% Fit: 'Linear Mercury Bot'.
 [xData, yData] = prepareCurveData( MBPLocsLength, MBPLocs );
 
 % Set up fittype and options.
@@ -233,6 +233,207 @@ plot( fitresult, xData, yData, 'bo');
 
 % Fit: 'Mercury Bot Troughs'.
 [xData, yData] = prepareCurveData( MBTLocsLength, MBTLocs );
+
+% Set up fittype and options.
+ft = fittype( 'poly1' );
+
+% Fit model to data.
+[fitresult, gof] = fit( xData, yData, ft )
+
+% Plot fit with data.
+plot( fitresult, xData, yData, 'ro');
+% Label axes
+xlabel 'Peak/Trough Number'
+ylabel 'Peak/Trough Voltage'
+legend('Peaks', 'Peaks Line Fit', 'Troughs', 'Troughs Line Fit', 'Location', 'NorthWest')
+grid on
+
+%% Fit: 'Poly2 Neon Bot'.
+NBPLocsLength = [1; 2; 3; 4];
+NBTLocsLength = [1; 2; 3];
+
+MBPLocsLength = [1; 2; 3; 4; 5; 6];
+MBTLocsLength = [1; 2; 3; 4; 5; 6];
+
+[xData, yData] = prepareCurveData( NBPLocsLength, NBPLocs );
+
+% Set up fittype and options.
+ft = fittype( 'poly2' );
+
+% Fit model to data.
+[fitresult, gof] = fit( xData, yData, ft )
+
+% Plot fit with data.
+figure( 'Name', 'Neon Preliminary Plot Poly2' );
+hold on
+plot( fitresult, xData, yData, 'bo');
+
+% Fit: 'Neon Bot Troughs'.
+[xData, yData] = prepareCurveData( NBTLocsLength, NBTLocs );
+
+% Set up fittype and options.
+ft = fittype( 'poly2' );
+
+% Fit model to data.
+[fitresult, gof] = fit( xData, yData, ft )
+
+% Plot fit with data.
+plot( fitresult, xData, yData, 'ro');
+% Label axes
+xlabel 'Peak/Trough Number'
+ylabel 'Peak/Trough Voltage'
+legend('Peaks', 'Peaks Curve Fit', 'Troughs', 'Troughs Curve Fit', 'Location', 'NorthWest')
+grid on
+
+
+%% Fit: 'Poly2 Mercury Bot'.
+[xData, yData] = prepareCurveData( MBPLocsLength, MBPLocs );
+
+% Set up fittype and options.
+ft = fittype( 'poly2' );
+
+% Fit model to data.
+[fitresult, gof] = fit( xData, yData, ft )
+
+% Plot fit with data.
+figure( 'Name', 'Mercury Preliminary Plot Poly2' );
+hold on
+plot( fitresult, xData, yData, 'bo');
+
+% Fit: 'Mercury Bot Troughs'.
+[xData, yData] = prepareCurveData( MBTLocsLength, MBTLocs );
+
+% Set up fittype and options.
+ft = fittype( 'poly2' );
+
+% Fit model to data.
+[fitresult, gof] = fit( xData, yData, ft )
+
+% Plot fit with data.
+plot( fitresult, xData, yData, 'ro');
+% Label axes
+xlabel 'Peak/Trough Number'
+ylabel 'Peak/Trough Voltage'
+legend('Peaks', 'Peaks Curve Fit', 'Troughs', 'Troughs Curve Fit', 'Location', 'NorthWest')
+grid on
+
+%% Location Differences
+
+% Neon
+NTPLocsDiffLength = length(NTPLocs) - 1
+NTPLocsDiff = zeros(1, NTPLocsDiffLength);
+for n = 1:NTPLocsDiffLength
+    NTPLocsDiff(n) = NTPLocs(n+1) - NTPLocs(n);
+end
+NTPLocs
+NTPLocsDiff
+
+NTTLocsDiffLength = length(NTTLocs) - 1
+NTTLocsDiff = zeros(1, NTTLocsDiffLength);
+for n = 1:NTTLocsDiffLength
+    NTTLocsDiff(n) = NTTLocs(n+1) - NTTLocs(n);
+end
+NTTLocs
+NTTLocsDiff
+
+NBPLocsDiffLength = length(NBPLocs) - 1
+NBPLocsDiff = zeros(1, NBPLocsDiffLength);
+for n = 1:NBPLocsDiffLength
+    NBPLocsDiff(n) = NBPLocs(n+1) - NBPLocs(n);
+end
+NBPLocs
+NBPLocsDiff
+
+NBTLocsDiffLength = length(NBTLocs) - 1
+NBTLocsDiff = zeros(1, NBTLocsDiffLength);
+for n = 1:NBTLocsDiffLength
+    NBTLocsDiff(n) = NBTLocs(n+1) - NBTLocs(n);
+end
+NBTLocs
+NBTLocsDiff
+
+
+% Mercury
+MTPLocsDiffLength = length(MTPLocs) - 1
+MTPLocsDiff = zeros(1, MTPLocsDiffLength);
+for n = 1:MTPLocsDiffLength
+    MTPLocsDiff(n) = MTPLocs(n+1) - MTPLocs(n);
+end
+NTPLocs
+NTPLocsDiff
+
+MTTLocsDiffLength = length(MTTLocs) - 1
+MTTLocsDiff = zeros(1, MTTLocsDiffLength);
+for n = 1:MTTLocsDiffLength
+    MTTLocsDiff(n) = MTTLocs(n+1) - MTTLocs(n);
+end
+MTTLocs
+MTTLocsDiff
+
+MBPLocsDiffLength = length(MBPLocs) - 1
+MBPLocsDiff = zeros(1, MBPLocsDiffLength);
+for n = 1:MBPLocsDiffLength
+    MBPLocsDiff(n) = MBPLocs(n+1) - MBPLocs(n);
+end
+MBPLocs
+MBPLocsDiff
+
+MBTLocsDiffLength = length(MBTLocs) - 1
+MBTLocsDiff = zeros(1, MBTLocsDiffLength);
+for n = 1:MBTLocsDiffLength
+    MBTLocsDiff(n) = MBTLocs(n+1) - MBTLocs(n);
+end
+MBTLocs
+MBTLocsDiff
+
+
+%% Neon Diff Bot
+[xData, yData] = prepareCurveData( 1:NBPLocsDiffLength, NBPLocsDiff );
+
+% Set up fittype and options.
+ft = fittype( 'poly1' );
+
+% Fit model to data.
+[fitresult, gof] = fit( xData, yData, ft )
+
+% Plot fit with data.
+figure( 'Name', 'Neon Preliminary Plot' );
+hold on
+plot( fitresult, xData, yData, 'bo');
+
+% Fit: 'Neon Bot Troughs'.
+[xData, yData] = prepareCurveData( 1:NBTLocsDiffLength, NBTLocsDiff );
+
+% Set up fittype and options.
+ft = fittype( 'poly1' );
+
+% Fit model to data.
+[fitresult, gof] = fit( xData, yData, ft )
+
+% Plot fit with data.
+plot( fitresult, xData, yData, 'ro');
+% Label axes
+xlabel 'Peak/Trough Number'
+ylabel 'Peak/Trough Voltage'
+legend('Peaks', 'Peaks Line Fit', 'Troughs', 'Troughs Line Fit', 'Location', 'NorthWest')
+grid on
+
+%% Fit: 'Mercury Diff Bot'.
+[xData, yData] = prepareCurveData( 1:MBPLocsDiffLength, MBPLocsDiff );
+
+% Set up fittype and options.
+ft = fittype( 'poly1' );
+
+% Fit model to data.
+[fitresult, gof] = fit( xData, yData, ft )
+
+% Plot fit with data.
+figure( 'Name', 'Mercury Preliminary Plot' );
+hold on
+plot( fitresult, xData, yData, 'bo');
+
+% Fit: 'Mercury Bot Troughs'.
+[xData, yData] = prepareCurveData( 1:MBTLocsDiffLength, MBTLocsDiff );
 
 % Set up fittype and options.
 ft = fittype( 'poly1' );
