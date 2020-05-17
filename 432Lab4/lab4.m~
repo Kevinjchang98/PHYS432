@@ -1,0 +1,10 @@
+close all; clear; clc;
+
+g-B0 = readtable('Green_B0.csv', 'HeaderLines', 15);
+g-3612NP = readtable('Green_3612A_no_polarizer.csv'.csv', 'HeaderLines', 15);
+g-357A-Sig = readtable('Green_', 'HeaderLines', 15);
+g-357A-Pi = readtable('Green_B0.csv', 'HeaderLines', 15);
+
+%%
+
+plot(data.('TIME'), data.('CH1'))
