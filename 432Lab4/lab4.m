@@ -22,7 +22,7 @@ y_182A_Sig = readtable('Yellow_182A_sigma.csv', 'HeaderLines', 15);
 y_182A_Pi = readtable('Yellow_182A_pi.csv', 'HeaderLines', 15);
 
 data = {g_B0, g_3612_NP, g_357A_Sig, g_357A_Pi, y_B0, y_1817_NP, y_380A_Pi, y_182A_Sig, y_182A_Pi};
-names = ["g_B0", "g_3612_NP", "g_357A_Sig", "g_357A_Pi", "y_B0", "y_1817_NP", "y_380A_Pi", "y_182A_Sig", "y_182A_Pi"];
+names = ["g-B0", "g-3612-NP", "g-357A-Sig", "g-357A-Pi", "y-B0", "y-1817-NP", "y-380A-Pi", "y-182A-Sig", "y-182A-Pi"];
 
 %% Initial Raw Data Plots
 
@@ -46,9 +46,11 @@ for i = 1:9
 
     plot(data{i}.('TIME'), data{i}.('CH1'))
 
-    [Peaks, Locs] = findpeaks(data{1}.('CH1'), data{i}.('TIME'), 'MinPeakProminence', .05, 'MinPeakDistance', .0001);
+    [Peaks, Locs] = findpeaks(data{1}.('CH1'), data{i}.('TIME'), 'MinPeakProminence', .015, 'MinPeakDistance', .0001);
     peakData{i} = [Peaks, Locs];
-    findpeaks(data{i}.('CH1'), data{i}.('TIME'), 'MinPeakProminence', .05, 'MinPeakDistance', .0001);
+    findpeaks(data{i}.('CH1'), data{i}.('TIME'), 'MinPeakProminence', .015, 'MinPeakDistance', .0001);
 
+    title(names(i))
+    saveas(gcf, names(i) + '.png')
     hold off
 end
