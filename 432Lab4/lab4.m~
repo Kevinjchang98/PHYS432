@@ -46,11 +46,10 @@ for i = 1:9
 
     plot(data{i}.('TIME'), data{i}.('CH1'))
 
-    [Peaks, Locs] = findpeaks(data{i}.('CH1'), data{i}.('TIME'), 'MinPeakProminence', .03, 'MinPeakDistance', .0001);
-    peakData{i} = [Peaks, Locs];
+    [Peaks, Locs] = findpeaks(data{1}.('CH1'), data{i}.('TIME'), 'MinPeakProminence', .06, 'MinPeakDistance', .0001);
     disp(names(i))
-    disp(Locs)
-    findpeaks(data{i}.('CH1'), data{i}.('TIME'), 'MinPeakProminence', .03, 'MinPeakDistance', .0001);
+    disp()
+    findpeaks(data{i}.('CH1'), data{i}.('TIME'), 'MinPeakProminence', .06, 'MinPeakDistance', .0001);
 
     title(names(i))
     saveas(gcf, names(i) + '.png')
